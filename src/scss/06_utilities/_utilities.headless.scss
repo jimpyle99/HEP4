@@ -1,0 +1,13 @@
+@use 'sass:map';
+@use '../00_settings/settings.global';
+
+.headless {
+  border-start-start-radius: map.get(
+    settings.$global-spacing,
+    spacing-small
+  ) !important;
+  border-start-end-radius: map.get(
+    settings.$global-spacing,
+    spacing-small
+  ) !important;
+}

@@ -1,0 +1,162 @@
+module Lia.Settings.Types exposing
+    ( Action(..)
+    , Audio(..)
+    , Mode(..)
+    , PlaybackState(..)
+    , Settings
+    , TTS
+    , fromGroup
+    , init
+    , toGroup
+    )
+
+
+type PlaybackState
+    = Idle
+    | Speaking
+    | Paused
+    | SpeakingWithProgress { current : Float, total : Float }
+    | PausedWithProgress { current : Float, total : Float }
+    | SeekingFromPlaying { current : Float, total : Float }
+    | SeekingFromPaused { current : Float, total : Float }
+
+
+type alias Settings =
+    { table_of_contents : Bool
+    , support_menu : Bool
+    , mode : Mode
+    , theme : String
+    , light : Bool
+    , editor : String
+    , font_size : Int
+    , sound : Bool
+    , lang : String
+    , action : Maybe Action
+    , playback : PlaybackState
+    , initialized : Bool
+    , hasShareApi : Maybe Bool
+    , translateWithGoogle : Maybe Bool
+    , customTheme : Maybe String
+    , tooltips : Bool
+    , hideVideoComments : Bool
+    , sync : Maybe Bool
+    , showQRCode : Bool
+    , tts : TTS
+    , chat : { show : Bool, updates : Bool }
+    , audio : { pitch : String, rate : String }
+    , fullscreen : Bool
+    , edit : Maybe String
+    , documentMode : Maybe Mode
+    , documentLight : Maybe Bool
+    , fromStorage : Bool
+    }
+
+
+type alias TTS =
+    { preferBrowser : Bool
+    , isBrowserSupported : Bool
+    , isResponsiveVoiceSupported : Bool
+    }
+
+
+type Action
+    = ShowInformation
+    | ShowTranslations
+    | ShowSettings
+    | ShowModes
+    | ShowShare
+    | Close
+
+
+type Mode
+    = Slides -- Underline Comments and Effects
+    | Presentation -- Only effects
+    | Textbook -- Render Comments and Effects at ones
+
+
+type Audio
+    = Pitch String
+    | Rate String
+
+
+init : Maybe Bool -> Bool -> Mode -> Settings
+init hasShareApi isFullscreen mode =
+    { table_of_contents = True
+    , support_menu = False
+    , mode = mode
+    , theme = "default"
+    , light = True
+    , editor = "dreamweaver"
+    , font_size = 100
+    , sound = True
+    , lang = "default"
+    , action = Nothing
+    , playback = Idle
+    , initialized = False
+    , hasShareApi = hasShareApi
+    , translateWithGoogle = Just False
+    , customTheme = Nothing
+    , tooltips = False
+    , hideVideoComments = False
+    , sync = Just False
+    , showQRCode = False
+    , tts =
+        { preferBrowser = False
+        , isBrowserSupported = False
+        , isResponsiveVoiceSupported = False
+        }
+    , chat =
+        { show = False
+        , updates = False
+        }
+    , audio = { pitch = "1", rate = "1" }
+    , fullscreen = isFullscreen
+    , edit = Nothing
+    , documentMode = Nothing
+    , documentLight = Nothing
+    , fromStorage = False
+    }
+
+
+toGroup : String -> Maybe Action
+toGroup str =
+    case str of
+        "information" ->
+            Just ShowInformation
+
+        "mode" ->
+            Just ShowModes
+
+        "setting" ->
+            Just ShowSettings
+
+        "translation" ->
+            Just ShowTranslations
+
+        "share" ->
+            Just ShowShare
+
+        _ ->
+            Nothing
+
+
+fromGroup : Action -> String
+fromGroup grp =
+    case grp of
+        ShowSettings ->
+            "setting"
+
+        ShowTranslations ->
+            "translation"
+
+        ShowInformation ->
+            "information"
+
+        ShowModes ->
+            "mode"
+
+        ShowShare ->
+            "share"
+
+        Close ->
+            "close"

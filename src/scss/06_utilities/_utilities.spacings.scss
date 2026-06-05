@@ -1,0 +1,59 @@
+/* --------------------------------------------------
+   Margin Utility Classes
+   -------------------------------------------------- */
+
+@for $i from 0 to 8 {
+  .m-#{$i} {
+    margin: #{$i}rem;
+  }
+  .mt-#{$i} {
+    margin-block-start: #{$i}rem;
+  }
+  .mr-#{$i} {
+    margin-inline-end: #{$i}rem;
+  }
+  .mb-#{$i} {
+    margin-block-end: #{$i}rem;
+  }
+  .ml-#{$i} {
+    margin-inline-start: #{$i}rem;
+  }
+  .mx-#{$i} {
+    margin-inline-start: #{$i}rem;
+    margin-inline-end: #{$i}rem;
+  }
+  .my-#{$i} {
+    margin-block-start: #{$i}rem;
+    margin-block-end: #{$i}rem;
+  }
+}
+
+/* --------------------------------------------------
+   Padding Utility Classes
+   -------------------------------------------------- */
+
+@for $i from 0 to 8 {
+  .p-#{$i} {
+    padding: #{$i}rem;
+  }
+  .pt-#{$i} {
+    padding-block-start: #{$i}rem;
+  }
+  .pr-#{$i} {
+    padding-inline-end: #{$i}rem;
+  }
+  .pb-#{$i} {
+    padding-block-end: #{$i}rem;
+  }
+  .pl-#{$i} {
+    padding-inline-start: #{$i}rem;
+  }
+  .px-#{$i} {
+    padding-inline-start: #{$i}rem;
+    padding-inline-end: #{$i}rem;
+  }
+  .py-#{$i} {
+    padding-block-start: #{$i}rem;
+    padding-block-end: #{$i}rem;
+  }
+}

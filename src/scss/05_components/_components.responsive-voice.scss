@@ -1,0 +1,103 @@
+@use '../00_settings/settings.global';
+@use '../01_tools/tools.breakpoints';
+
+$responsive-voice-hight: 5rem;
+
+.lia-responsive-voice {
+  align-items: center;
+  background-color: rgb(var(--lia-grey-light));
+  color: rgb(var(--color-highlight));
+  display: flex;
+  flex-direction: column;
+  //min-height: 6rem;
+  justify-content: center;
+  //padding: 2rem;
+  width: 100%;
+
+  &__control {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  &__playgroup {
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+    & > * {
+      border: 1px solid rgb(var(--lia-grey));
+      border-radius: 0;
+      height: 2.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:not(:disabled) {
+        border-color: rgb(var(--color-highlight));
+      }
+    }
+
+    & > *:first-child {
+      border-radius: 2rem 0 0 2rem;
+
+      .lia-btn__icon {
+        margin: 0 -0.4rem 0 -0.1rem;
+      }
+    }
+
+    & > *:last-child {
+      border-radius: 0 2rem 2rem 0;
+      margin-left: -1px;
+
+      .lia-btn__icon {
+        margin: 0 -0.1rem 0 -0.4rem;
+      }
+    }
+
+    & > *:first-child:not(:disabled) + * {
+      border-left-color: rgb(var(--color-highlight));
+    }
+  }
+
+  &__center {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  &__info {
+    text-align: center;
+  }
+
+  @at-root html.lia-variant-dark & {
+    background-color: rgb(var(--lia-anthracite));
+  }
+
+  @include tools.breakpoint('xs') {
+    align-items: center;
+    height: 5rem;
+    flex-direction: row;
+    padding: 0;
+  }
+
+  @include tools.breakpoint('md') {
+    border-start-start-radius: settings.$global-radius;
+    border-start-end-radius: settings.$global-radius;
+  }
+}
+
+.lia-tts-progress {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.lia-tts-progress__slider {
+  width: 100%;
+
+  &:disabled {
+    opacity: 0.4;
+  }
+}

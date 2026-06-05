@@ -1,0 +1,107 @@
+@use '../00_settings/settings.global';
+
+details {
+  border: 1px solid rgb(var(--color-border));
+  border-radius: settings.$global-radius;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+
+  &[open] {
+    summary {
+      border-bottom: 1px solid rgb(var(--color-border));
+      margin-bottom: 1rem;
+
+      &::after {
+        transform: rotate(90deg);
+      }
+    }
+
+    > *:not(summary) {
+      animation: slideDown 400ms ease-out;
+    }
+  }
+
+  > *:not(summary) {
+    padding: 0 1.5rem 1.5rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-0.5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+summary {
+  align-items: center;
+  background-color: rgba(var(--color-highlight), 0.05);
+  color: rgb(var(--color-highlight-dark));
+  cursor: pointer;
+  display: flex;
+  font-family: settings.$global-font-family;
+  font-weight: 600;
+  list-style: none;
+  padding: 1rem 1.5rem;
+  position: relative;
+  transition: settings.$global-transition;
+  user-select: none;
+
+  @at-root html.lia-variant-dark & {
+    background-color: rgba(var(--color-highlight), 0.1);
+    color: rgb(
+      from rgb(var(--color-highlight)) calc(r * 2.5) calc(g * 2.5) calc(b * 2.5)
+    );
+  }
+
+  // Remove default marker
+  &::-webkit-details-marker,
+  &::marker {
+    display: none;
+  }
+
+  // Custom arrow indicator
+  &::after {
+    content: '›';
+    color: rgb(var(--color-highlight));
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: auto;
+    transition: transform 400ms ease-out;
+
+    @at-root html.lia-variant-dark & {
+      color: rgb(
+        from rgb(var(--color-highlight)) calc(r * 2.2) calc(g * 2.2)
+          calc(b * 2.2)
+      );
+    }
+  }
+
+  &:hover {
+    background-color: rgba(var(--color-highlight), 0.1);
+
+    @at-root html.lia-variant-dark & {
+      background-color: rgba(var(--color-highlight), 0.15);
+    }
+  }
+
+  // Hide focus outline for mouse users
+  &:focus:not(:focus-visible) {
+    outline: none;
+    box-shadow: none;
+  }
+
+  // Show accessible outline for keyboard users, inset to avoid overflow:hidden clipping
+  &:focus-visible {
+    outline-offset: -3px;
+    box-shadow: none;
+  }
+}

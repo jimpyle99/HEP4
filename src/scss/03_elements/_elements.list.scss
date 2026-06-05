@@ -1,0 +1,18 @@
+.lia-list {
+  &--unordered,
+  &--ordered {
+    padding-inline-start: 2rem;
+
+    > li::marker {
+      padding-inline-start: 2rem;
+      color: rgb(var(--color-highlight-dark));
+
+      @at-root html.lia-variant-dark & {
+        color: rgb(
+          from rgb(var(--color-highlight-dark)) calc(r * 2.5) calc(g * 2.5)
+            calc(b * 2.5)
+        );
+      }
+    }
+  }
+}
