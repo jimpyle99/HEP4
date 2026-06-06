@@ -1,7 +1,7 @@
 <!--
 author:   Howard Energy Partners — People & Culture
 email:    jimpyle@gmail.com
-version:  2.1.0
+version:  2.2.0
 language: en
 narrator: US English Male
 
@@ -46,6 +46,10 @@ By the end of this course, you will be able to:
 
 --{{0}}--
 Let's start with the basics: who we are, where we're based, and who leads us.
+
+![Downtown San Antonio, Texas — home of Howard Energy Partners HQ](https://upload.wikimedia.org/wikipedia/commons/9/94/Downtown_San_Antonio_2021.jpg "Downtown San Antonio, Texas")<!-- style="width:100%;max-height:320px;object-fit:cover;border-radius:6px" -->
+
+*📷 [Downtown San Antonio 2021](https://commons.wikimedia.org/wiki/File:Downtown_San_Antonio_2021.jpg) by Alexd210 — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), Wikimedia Commons*
 
 Howard Energy Partners (HEP) is a privately held **midstream energy and logistics** company headquartered in **San Antonio, Texas**. The company was **founded in June 2011** by **Mike Howard**, who still serves as **Chairman and CEO** today.[^1][^2]
 
@@ -95,6 +99,10 @@ Howard Energy Partners is backed by **traditional private equity firms**.
 --{{0}}--
 The energy industry has three main parts. Let's see where we fit.
 
+![Large-scale energy processing and refinery infrastructure](https://images.unsplash.com/photo-1516199423456-1f1e91b06f25?w=900&fit=crop "Energy refinery infrastructure")<!-- style="width:100%;max-height:320px;object-fit:cover;border-radius:6px" -->
+
+*📷 [Oil Refinery](https://unsplash.com/@zburival) by Zbynek Burival — [Unsplash License](https://unsplash.com/license) (free for commercial use)*
+
 The energy industry is often split into three parts. **Howard Energy Partners lives in the midstream.**
 
 | Segment        | What it does                                       | Example                     |
@@ -142,6 +150,10 @@ Match each region to its description:
 --{{0}}--
 Howard Energy Partners grew from a 2011 startup into a multi-billion-dollar enterprise through a deliberate mix of organic growth and acquisitions. Here are the headline milestones.
 
+![Oil refinery and processing plant — representative of HEP's acquired and operated facilities](https://images.unsplash.com/photo-1678984240126-70bcddd7a228?w=900&fit=crop "Oil refinery processing plant")<!-- style="width:100%;max-height:320px;object-fit:cover;border-radius:6px" -->
+
+*📷 [Oil Refinery Plant, Trzebinia, Poland](https://unsplash.com/@jakubpabis) by Jakub Pabis — [Unsplash License](https://unsplash.com/license) (free for commercial use)*
+
 | Year         | Milestone                                                                                   |
 | :----------- | :------------------------------------------------------------------------------------------ |
 | **2011**     | Howard Energy Partners founded in San Antonio, TX.[^1]                                       |
@@ -183,6 +195,10 @@ The Superior Midstream acquisition added approximately **3,700 miles** of gather
 
 --{{0}}--
 Our strategy isn't just about moving traditional fuels. Many of our facilities also address lower-carbon demand. The flagship example is the Javelina plant.
+
+![Industrial gas processing facility with pipes and towers — similar to HEP's Javelina plant in Corpus Christi](https://images.unsplash.com/photo-1588011930968-eadac80e6a5a?w=900&fit=crop "Industrial gas processing facility")<!-- style="width:100%;max-height:320px;object-fit:cover;border-radius:6px" -->
+
+*📷 [Industrial Processing Plant](https://unsplash.com/@maxkaharlytskyi) by Maksym Kaharlytskyi — [Unsplash License](https://unsplash.com/license) (free for commercial use)*
 
 HEP's facilities are designed to **solve today's energy needs while also addressing lower-carbon demand**.[^3]
 
@@ -230,6 +246,10 @@ Javelina **recycles** the waste gas into hydrogen, ethylene, and NGLs, and suppl
 --{{0}}--
 Here is a snapshot of HEP's scale, and how quickly it has grown.
 
+![Aerial view of pipeline and energy infrastructure — representative of HEP's 1,500+ mile network](https://images.unsplash.com/photo-1516937941344-00b4e0337589?w=900&fit=crop "Pipeline infrastructure aerial view")<!-- style="width:100%;max-height:320px;object-fit:cover;border-radius:6px" -->
+
+*📷 [Pipeline Infrastructure](https://unsplash.com/@patrickian4) by Patrick Hendry — [Unsplash License](https://unsplash.com/license) (free for commercial use)*
+
 A snapshot of HEP's scale (as reported in early 2025):[^10]
 
 - 🚧 **1,500+ miles** of pipeline (U.S. and Mexico)
@@ -253,6 +273,10 @@ The chart below illustrates HEP's rapid pipeline growth (figures are approximate
 
 --{{0}}--
 Finally, the culture you're now part of. Our mission is captured in a simple phrase you'll hear often: delivering positive energy.
+
+![Colleagues celebrating success together — reflecting HEP's team-first culture](https://images.unsplash.com/photo-1758691737584-a8f17fb34475?w=900&fit=crop "Team celebrating success")<!-- style="width:100%;max-height:320px;object-fit:cover;border-radius:6px" -->
+
+*📷 [Team Celebrating Success](https://unsplash.com/@vitalygariev) by Vitaly Gariev — [Unsplash License](https://unsplash.com/license) (free for commercial use)*
 
 HEP's mission is captured in a phrase you'll hear often: **"delivering positive energy."** It refers both to the reliable energy the company provides *and* to the kind of workplace it tries to be.[^3]
 
