@@ -1,13 +1,14 @@
 <!--
 author:   Howard Energy Partners — People & Culture
 email:    jimpyle@gmail.com
-version:  2.0.0
+version:  2.1.0
 language: en
 narrator: US English Male
 
 comment:  An interactive onboarding course introducing new employees to Howard Energy Partners — our history, our midstream business, key milestones, innovation, and culture. Includes self-check quizzes and a final knowledge check.
 
 link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
+link:     https://jimpyle99.github.io/HEP4/watermark.css
 -->
 
 # Howard Energy Partners: New Employee Onboarding Demo - not for official use.
