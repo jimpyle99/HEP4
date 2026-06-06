@@ -1,7 +1,7 @@
 <!--
 author:   Howard Energy Partners — People & Culture
 email:    jimpyle@gmail.com
-version:  1.4.0
+version:  1.5.0
 language: en
 narrator: US English Male
 
@@ -362,8 +362,12 @@ Congratulations on completing the Howard Energy Partners New Employee Onboarding
 
 Enter your full name below — the certificate will update as you type. Then use **Ctrl+P / Cmd+P** to print.
 
-<script input="text" placeholder="Your full name">
-var n = "@input" === "" ? "Your Name" : "@input";
+<script input="text" placeholder="Your full name" output="certName">
+"@input"
+</script>
+
+<script @input(`certName`)>
+var n = "@input(`certName`)" === "" ? "Your Name" : "@input(`certName`)";
 var d = new Date();
 var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 var date = months[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
