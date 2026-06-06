@@ -1,7 +1,7 @@
 <!--
 author:   Howard Energy Partners — People & Culture
 email:    jimpyle@gmail.com
-version:  1.1.0
+version:  1.2.0
 language: en
 narrator: US English Male
 
