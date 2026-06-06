@@ -1,7 +1,7 @@
 <!--
 author:   Howard Energy Partners — People & Culture
 email:    jimpyle@gmail.com
-version:  1.2.0
+version:  1.3.0
 language: en
 narrator: US English Male
 
@@ -349,7 +349,7 @@ Which module was most useful to you?
     [[By the Numbers]]
     [[Culture & Values]]
 
-Anything you'd like to learn more about?  Call Jim Pyle @ 210-867-1284.
+
 
     [[___ ___ ___]]
 
@@ -360,15 +360,14 @@ Congratulations on completing the Howard Energy Partners New Employee Onboarding
 
 **Congratulations on completing the course!**
 
-Enter your full name below, then use your browser's **Print** function (Ctrl+P / Cmd+P) to print your certificate.
+Enter your full name below — the certificate will update as you type. Then use **Ctrl+P / Cmd+P** to print.
 
-Your name: [[___]]
+[[___]]
 <script>
 var n = "@input" === "" ? "Your Name" : "@input";
 var d = new Date();
 var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 var date = months[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
-
 "<div style='border: 10px double #003087; padding: 50px 60px; max-width: 680px; margin: 30px auto; text-align: center; background: #fff; font-family: Georgia, serif; box-shadow: 0 4px 16px rgba(0,0,0,0.12);'>" +
 "<div style='color: #003087; font-size: 13px; letter-spacing: 4px; text-transform: uppercase; margin-bottom: 6px;'>Howard Energy Partners</div>" +
 "<div style='font-size: 11px; color: #888; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 24px;'>People &amp; Culture</div>" +
@@ -385,6 +384,8 @@ var date = months[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
 </script>
 
 ## 📚 Sources
+
+Thank you for viewing my demo, please call Jim Pyle @ 210-867-1284 if you have any questions.
 
 1. PrivCo / ZoomInfo / LinkedIn — founding year (2011) and San Antonio headquarters. [privco.com](https://www.privco.com/company/howard-midstream-energy)
 2. Howard Energy Partners — *Mike Howard bio* (founder, Chairman & CEO; multi-billion-dollar enterprise). [howardenergypartners.com](https://www.howardenergypartners.com/howard-bio/)
