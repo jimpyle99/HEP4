@@ -3,7 +3,7 @@ author:   Howard Energy Partners — People & Culture
 email:    jimpyle@gmail.com
 version:  1.1.0
 language: en
-narrator: US English Male
+narrator: US English Female
 
 comment:  An interactive onboarding course introducing new employees to Howard Energy Partners — our history, our midstream business, key milestones, innovation, and culture. Includes self-check quizzes and a final knowledge check.
 
@@ -34,7 +34,7 @@ Here is what you should be able to do after finishing this course.
 By the end of this course, you will be able to:
 
 1. Describe how Howard Energy Partners was founded and how it is structured.
-2. Explain what "midstream energy" means and where Howard Energy Partnersoperates.
+2. Explain what "midstream energy" means and where Howard Energy Partners operates.
 3. Recall the company's major growth milestones.
 4. Understand HEP's role in energy innovation and lower-carbon solutions.
 5. Connect day-to-day work to the company's purpose and core values.
@@ -48,7 +48,7 @@ Let's start with the basics: who we are, where we're based, and who leads us.
 
 Howard Energy Partners (HEP) is a privately held **midstream energy and logistics** company headquartered in **San Antonio, Texas**. The company was **founded in June 2011** by **Mike Howard**, who still serves as **Chairman and CEO** today.[^1][^2]
 
-Howard Energy Partnersdescribes itself as *"part of the industry that powers every other industry."* It doesn't drill for oil and gas, and it doesn't sell it to consumers — instead, it builds and operates the critical infrastructure that moves, processes, and prepares energy as it travels from the wellhead to the market.[^3]
+Howard Energy Partners describes itself as *"part of the industry that powers every other industry."* It doesn't drill for oil and gas, and it doesn't sell it to consumers — instead, it builds and operates the critical infrastructure that moves, processes, and prepares energy as it travels from the wellhead to the market.[^3]
 
 What makes Howard Energy Partners's ownership unusual
 ==================================
@@ -57,17 +57,17 @@ What makes Howard Energy Partners's ownership unusual
 Pay attention to this part — our ownership structure is a big reason we can think long term.
 
      {{1}}
-Unlike most companies its size, Howard Energy Partnersis backed by long-term institutional partners — the **Alberta Investment Management Corporation (AIMCo)** and **Alinda Capital Partners** — rather than traditional private equity firms. This structure is intentional: it lets the company take a **long-term view** and grow at the pace its customers need, rather than chasing short-term returns.[^4]
+Unlike most companies its size, Howard Energy Partners is backed by long-term institutional partners — the **Alberta Investment Management Corporation (AIMCo)** and **Alinda Capital Partners** — rather than traditional private equity firms. This structure is intentional: it lets the company take a **long-term view** and grow at the pace its customers need, rather than chasing short-term returns.[^4]
 
      {{2}}
-Today, Howard Energy Partnersis one of the nation's **largest private energy infrastructure companies** and a **multi-billion-dollar enterprise**, with operations across **Texas, New Mexico, Pennsylvania, Oklahoma, Kansas, and Mexico**.[^2][^5]
+Today, Howard Energy Partners is one of the nation's **largest private energy infrastructure companies** and a **multi-billion-dollar enterprise**, with operations across **Texas, New Mexico, Pennsylvania, Oklahoma, Kansas, and Mexico**.[^2][^5]
 
 Meet the leader
 ===============
 
 CEO **Mike Howard** holds a degree in chemical engineering from **Texas A&M University–Kingsville** and previously served as **President of Midstream** for a major Fortune 100 energy company before founding HEP. In **February 2026**, he was appointed to the **National Petroleum Council**, a federal advisory committee created in 1946 at the request of President Harry S. Truman.[^5][^6]
 
-> 💡 **Did You Know?** The company name reflects a personal idea: founder Mike Howard wanted to build a *"meaningful endeavor"* — a values-driven company that delivers reliable energy while contributing to its communities. That phrase still shapes how Howard Energy Partnersmakes growth decisions today.[^3]
+> 💡 **Did You Know?** The company name reflects a personal idea: founder Mike Howard wanted to build a *"meaningful endeavor"* — a values-driven company that delivers reliable energy while contributing to its communities. That phrase still shapes how Howard Energy Partners makes growth decisions today.[^3]
 
 ### Quick Check — Module 1
 
@@ -77,7 +77,7 @@ In what **year** was Howard Energy Partners founded?
 [[?]] It's the same decade smartphones went mainstream.
 [[?]] Early 2010s.
 ***
-Howard Energy Partnerswas founded in **June 2011** in San Antonio, Texas.
+Howard Energy Partners was founded in **June 2011** in San Antonio, Texas.
 ***
 
 Howard Energy Partners is backed by **traditional private equity firms**.
@@ -86,7 +86,7 @@ Howard Energy Partners is backed by **traditional private equity firms**.
 [(X)] False
 [[?]] Think about the AIMCo and Alinda detail.
 ***
-**False.** Howard Energy Partnersis backed by long-term partners — AIMCo and Alinda Capital — *not* traditional private equity. This is what enables its long-term strategy.
+**False.** Howard Energy Partners is backed by long-term partners — AIMCo and Alinda Capital — *not* traditional private equity. This is what enables its long-term strategy.
 ***
 
 ## Module 2 — What We Do: Understanding Midstream
@@ -94,7 +94,7 @@ Howard Energy Partners is backed by **traditional private equity firms**.
 --{{0}}--
 The energy industry has three main parts. Let's see where we fit.
 
-The energy industry is often split into three parts. **Howard Energy Partnerslives in the midstream.**
+The energy industry is often split into three parts. **Howard Energy Partners lives in the midstream.**
 
 | Segment        | What it does                                       | Example                     |
 | :------------- | :------------------------------------------------- | :-------------------------- |
@@ -102,7 +102,7 @@ The energy industry is often split into three parts. **Howard Energy Partnersliv
 | **Midstream**  | Gathers, processes, transports, and stores energy  | Pipelines, plants, terminals|
 | **Downstream** | Refines and sells to end users                     | Refineries, gas stations    |
 
-Howard Energy Partnersprovides producers with a full suite of integrated services "from wellhead to market" — natural gas gathering, processing, treating, transportation, fractionation, terminals, and rail and marine logistics.[^3][^4]
+Howard Energy Partners provides producers with a full suite of integrated services "from wellhead to market" — natural gas gathering, processing, treating, transportation, fractionation, terminals, and rail and marine logistics.[^3][^4]
 
 Where Howard Energy Partners operates
 ===================
@@ -123,13 +123,13 @@ Our footprint is organized into regions, each serving a different need.
 
 ### Quick Check — Module 2
 
-Which energy segment does Howard Energy Partnersoperate in?
+Which energy segment does Howard Energy Partners operate in?
 
 [( )] Upstream
 [(X)] Midstream
 [( )] Downstream
 ***
-Howard Energy Partnersis a **midstream** company — it connects producers to markets through gathering, processing, storage, and logistics.
+Howard Energy Partners is a **midstream** company — it connects producers to markets through gathering, processing, storage, and logistics.
 ***
 
 Match each region to its description:
@@ -154,7 +154,7 @@ Howard Energy Partners grew from a 2011 startup into a multi-billion-dollar ente
 | **May 2026** | Increased ownership of the **Midship Pipeline to 100%**.[^13]                                |
 | **Feb 2026** | CEO Mike Howard appointed to the **National Petroleum Council**.[^6]                         |
 
-> 💡 **Did You Know?** After taking over operations of the Midship Pipeline, Howard Energy Partnersoptimized the asset so effectively that it achieved **record throughput and utilization** — a great example of "operational excellence" in action.[^13]
+> 💡 **Did You Know?** After taking over operations of the Midship Pipeline, Howard Energy Partners optimized the asset so effectively that it achieved **record throughput and utilization** — a great example of "operational excellence" in action.[^13]
 
 ### Quick Check — Module 3
 
@@ -246,7 +246,7 @@ The chart below illustrates HEP's rapid pipeline growth (figures are approximate
 | Early 2025         |           1500 |
 | After 2026 deals   |           5200 |
 
-> 🏆 **Recognition:** Howard Energy Partnershas been honored as a **USA TODAY Top Workplace**, reflecting its emphasis on culture and employee experience.[^3]
+> 🏆 **Recognition:** Howard Energy Partners has been honored as a **USA TODAY Top Workplace**, reflecting its emphasis on culture and employee experience.[^3]
 
 ## Module 6 — Our Culture & Core Values
 
@@ -262,9 +262,9 @@ The company's **core values were created by employees themselves.** The consiste
 - **Teamwork, honesty, and doing what is right**
 - A long-term, **purpose-driven** approach to growth[^1][^3]
 
-Howard Energy Partnersframes its work as a **"meaningful endeavor"** — the belief that access to reliable, affordable energy is foundational to human progress and quality of life.[^3][^5]
+Howard Energy Partners frames its work as a **"meaningful endeavor"** — the belief that access to reliable, affordable energy is foundational to human progress and quality of life.[^3][^5]
 
-> 💡 **Did You Know?** Howard Energy Partnersteams are active in their communities — for example, partnering with local organizations in Corpus Christi to deliver school supplies to first-grade students. "Delivering positive energy" extends beyond pipelines.[^14]
+> 💡 **Did You Know?** Howard Energy Partners teams are active in their communities — for example, partnering with local organizations in Corpus Christi to deliver school supplies to first-grade students. "Delivering positive energy" extends beyond pipelines.[^14]
 
 ### Quick Check — Module 6
 
@@ -280,15 +280,15 @@ The guiding purpose is **"delivering positive energy"** — both the product we 
 --{{0}}--
 Time to put it all together. Answer each question — hints and explanations are available if you need them.
 
-**1.** In what city is Howard Energy Partnersheadquartered?
+**1.** In what city is Howard Energy Partners headquartered?
 
 [[San Antonio]]
 [[?]] It's in Texas.
 ***
-Howard Energy Partnersis headquartered in **San Antonio, Texas**.
+Howard Energy Partners is headquartered in **San Antonio, Texas**.
 ***
 
-**2.** Which of these are **Howard Energy Partnersoperating regions**? (Select all that apply.)
+**2.** Which of these are **Howard Energy Partners operating regions**? (Select all that apply.)
 
 [[X]] South Texas
 [[X]] Pennsylvania
@@ -297,7 +297,7 @@ Howard Energy Partnersis headquartered in **San Antonio, Texas**.
 [[X]] Mexico
 [[ ]] Florida
 ***
-Howard Energy Partnersoperates across South Texas, West Texas, Pennsylvania, Port Arthur, Corpus Christi, Oklahoma–Kansas, and Mexico — but **not** Alaska or Florida.
+Howard Energy Partners operates across South Texas, West Texas, Pennsylvania, Port Arthur, Corpus Christi, Oklahoma–Kansas, and Mexico — but **not** Alaska or Florida.
 ***
 
 **3.** What is the name of the 200-mile cross-border pipeline that delivers natural gas to northern Mexico?
@@ -311,7 +311,7 @@ The **Nueva Era Pipeline** — a joint venture with Grupo Clisa — supplies gas
 
 [[Record M&A] [Midship] [Superior Midstream]]
 [    (X)         ( )         ( )            ] $1.1B+ of transactions in a single year
-[    ( )         (X)         ( )            ] Howard Energy Partnersincreased ownership to 100% in 2026
+[    ( )         (X)         ( )            ] Howard Energy Partners increased ownership to 100% in 2026
 [    ( )         ( )         (X)            ] Added ~3,700 miles of gathering pipeline
 
 **5.** Who is HEP's founder and CEO, and what 2026 federal appointment did he receive?
@@ -362,7 +362,7 @@ Anything you'd like to learn more about?  Call Jim Pyle @ 210-867-1284.
 [^5]: BusinessWire / Yahoo Finance — *Mike Howard Appointed to National Petroleum Council* (Feb 3, 2026). <https://www.businesswire.com/news/home/20260203292099/en>
 [^6]: BusinessWire — National Petroleum Council appointment details. <https://www.businesswire.com/news/home/20260203292099/en>
 [^7]: Howard Energy Partners — *Our Operations* page (regional operations, Nueva Era, Javelina/Infinium, renewable diesel & SAF). <https://www.howardenergypartners.com/our-operations/>
-[^8]: BusinessWire — *Howard Energy Partnersto Acquire Refinery Services Facility in Corpus Christi* (Javelina acquisition, 2021). <https://www.businesswire.com/news/home/20201229005030/en>
+[^8]: BusinessWire — *Howard Energy Partners to Acquire Refinery Services Facility in Corpus Christi* (Javelina acquisition, 2021). <https://www.businesswire.com/news/home/20201229005030/en>
 [^9]: Hydrogen Insight & Infinium — world's first commercial drop-in eFuels facility (Pathfinder), CO₂ feedstock from HEP. <https://www.infiniumco.com/projects>
 [^10]: Howard Energy Partners — *Acquires Ethylene Pipeline from EPIC Midstream Holdings* (Jan 2025); record $1.1B M&A year; by-the-numbers stats. <https://www.howardenergypartners.com/howard-energy-partners-acquires-ethylene-pipeline-from-epic-midstream-holdings/>
 [^11]: Howard Energy Partners — *Acquires Operating Interest in Midship Pipeline* (Feb 2025). <https://www.howardenergypartners.com/howard-energy-partners-acquires-operating-interest-in-midship-pipeline/>
