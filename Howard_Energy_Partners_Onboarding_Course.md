@@ -1,7 +1,7 @@
 <!--
 author:   Howard Energy Partners — People & Culture
 email:    jimpyle@gmail.com
-version:  1.7.0
+version:  1.8.0
 language: en
 narrator: US English Male
 
@@ -360,31 +360,39 @@ Congratulations on completing the Howard Energy Partners New Employee Onboarding
 
 **Congratulations on completing the course!**
 
-Enter your full name below — the certificate will update as you type. Then use **Ctrl+P / Cmd+P** to print.
+Enter your full name and click **Print Certificate**.
 
-<script input="text" placeholder="Your full name" output="certName">
-"@input"
+```html
+<body style="margin:0;padding:16px;font-family:Georgia,serif">
+<div style="margin-bottom:16px">
+  <label style="font-size:15px;font-weight:bold">Your full name:</label><br><br>
+  <input type="text" id="nameInput" placeholder="Enter your full name"
+    style="padding:10px;font-size:16px;width:320px;border:2px solid #003087;border-radius:4px"
+    oninput="document.getElementById('certName').textContent=this.value||'Your Name'">
+</div>
+<div style="border:10px double #003087;padding:40px;max-width:660px;margin:0 auto;text-align:center;background:#fff;box-shadow:0 4px 16px rgba(0,0,0,0.12)">
+  <div style="color:#003087;font-size:12px;letter-spacing:4px;text-transform:uppercase;margin-bottom:6px">Howard Energy Partners</div>
+  <div style="font-size:11px;color:#888;letter-spacing:2px;text-transform:uppercase;margin-bottom:20px">People &amp; Culture</div>
+  <div style="font-size:26px;font-weight:bold;color:#003087;margin-bottom:20px;border-bottom:2px solid #c8a951;padding-bottom:12px">Certificate of Completion</div>
+  <div style="font-size:14px;color:#555;margin-bottom:8px">This certifies that</div>
+  <div id="certName" style="font-size:30px;color:#003087;font-style:italic;border-bottom:2px solid #003087;padding-bottom:8px;margin:8px 40px 18px;min-height:44px">Your Name</div>
+  <div style="font-size:14px;color:#555;margin-bottom:6px">has successfully completed the</div>
+  <div style="font-size:17px;font-weight:bold;color:#222;margin-bottom:6px">New Employee Onboarding Course</div>
+  <div style="font-size:13px;color:#777;margin-bottom:28px">Howard Energy Partners &mdash; People &amp; Culture</div>
+  <div style="display:flex;justify-content:space-around;margin-top:20px;padding-top:14px;border-top:1px solid #ddd">
+    <div style="text-align:center"><div style="font-size:12px;color:#444">Mike Howard</div><div style="font-size:10px;color:#888">Chairman &amp; CEO</div></div>
+    <div style="text-align:center"><div id="certDate" style="font-size:12px;color:#444"></div><div style="font-size:10px;color:#888">Date Completed</div></div>
+  </div>
+</div>
+<br>
+<button onclick="window.print()" style="background:#003087;color:white;padding:10px 28px;font-size:15px;border:none;border-radius:6px;cursor:pointer">🖨️ Print Certificate</button>
+<script>
+var d=new Date(),m=["January","February","March","April","May","June","July","August","September","October","November","December"];
+document.getElementById("certDate").textContent=m[d.getMonth()]+" "+d.getDate()+", "+d.getFullYear();
 </script>
-<script @input(`certName`)>
-var n = "@input" === "" ? "Your Name" : "@input";
-var d = new Date();
-var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-var date = months[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
-var cert = "<div style='border:10px double #003087;padding:40px;max-width:680px;margin:20px auto;text-align:center;background:#fff;font-family:Georgia,serif;box-shadow:0 4px 16px rgba(0,0,0,0.12)'>";
-cert += "<div style='color:#003087;font-size:13px;letter-spacing:4px;text-transform:uppercase;margin-bottom:6px'>Howard Energy Partners</div>";
-cert += "<div style='font-size:11px;color:#888;letter-spacing:2px;text-transform:uppercase;margin-bottom:24px'>People &amp; Culture</div>";
-cert += "<div style='font-size:28px;font-weight:bold;color:#003087;margin-bottom:24px;border-bottom:2px solid #c8a951;padding-bottom:14px'>Certificate of Completion</div>";
-cert += "<div style='font-size:15px;color:#555;margin-bottom:8px'>This certifies that</div>";
-cert += "<div style='font-size:32px;color:#003087;font-style:italic;border-bottom:2px solid #003087;padding-bottom:8px;margin:8px 40px 20px;min-height:48px'>" + n + "</div>";
-cert += "<div style='font-size:15px;color:#555;margin-bottom:6px'>has successfully completed the</div>";
-cert += "<div style='font-size:18px;font-weight:bold;color:#222;margin-bottom:6px'>New Employee Onboarding Course</div>";
-cert += "<div style='font-size:13px;color:#777;margin-bottom:30px'>Howard Energy Partners &mdash; People &amp; Culture</div>";
-cert += "<div style='display:flex;justify-content:space-around;margin-top:24px;padding-top:16px;border-top:1px solid #ddd'>";
-cert += "<div style='text-align:center'><div style='font-size:13px;color:#444'>Mike Howard</div><div style='font-size:11px;color:#888'>Chairman &amp; CEO</div></div>";
-cert += "<div style='text-align:center'><div style='font-size:13px;color:#444'>" + date + "</div><div style='font-size:11px;color:#888'>Date Completed</div></div>";
-cert += "</div></div>";
-cert;
-</script>
+</body>
+```
+<script>@input</script>
 
 ## 📚 Sources
 
