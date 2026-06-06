@@ -364,33 +364,28 @@ Enter your full name below, then use your browser's **Print** function (Ctrl+P /
 
 Your name: [[___]]
 <script>
-var name = "@input" || "Your Name"
-var date = new Date().toLocaleDateString('en-US', {year:'numeric', month:'long', day:'numeric'})
+var n = "@input" === "" ? "Your Name" : "@input";
+var d = new Date();
+var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+var date = months[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
 
-`<div style="border: 10px double #003087; padding: 50px 60px; max-width: 680px; margin: 30px auto; text-align: center; background: #fff; font-family: Georgia, serif; box-shadow: 0 4px 16px rgba(0,0,0,0.12);">
-  <div style="color: #003087; font-size: 13px; letter-spacing: 4px; text-transform: uppercase; margin-bottom: 6px;">Howard Energy Partners</div>
-  <div style="font-size: 11px; color: #888; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 24px;">People &amp; Culture</div>
-  <div style="font-size: 30px; font-weight: bold; color: #003087; margin-bottom: 28px; border-bottom: 2px solid #c8a951; padding-bottom: 16px;">Certificate of Completion</div>
-  <div style="font-size: 15px; color: #555; margin-bottom: 8px;">This certifies that</div>
-  <div style="font-size: 34px; color: #003087; font-style: italic; border-bottom: 2px solid #003087; padding-bottom: 8px; margin: 8px 40px 20px; min-height: 48px;">${name}</div>
-  <div style="font-size: 15px; color: #555; margin-bottom: 6px;">has successfully completed the</div>
-  <div style="font-size: 19px; font-weight: bold; color: #222; margin-bottom: 6px;">New Employee Onboarding Course</div>
-  <div style="font-size: 14px; color: #777; margin-bottom: 36px;">Howard Energy Partners — People &amp; Culture</div>
-  <div style="display: flex; justify-content: space-around; margin-top: 30px; padding-top: 20px; border-top: 1px solid #ddd;">
-    <div style="text-align: center;">
-      <div style="font-size: 13px; color: #444; margin-bottom: 4px;">Mike Howard</div>
-      <div style="font-size: 11px; color: #888;">Chairman &amp; CEO</div>
-    </div>
-    <div style="text-align: center;">
-      <div style="font-size: 13px; color: #444; margin-bottom: 4px;">${date}</div>
-      <div style="font-size: 11px; color: #888;">Date Completed</div>
-    </div>
-  </div>
-</div>`
+"<div style='border: 10px double #003087; padding: 50px 60px; max-width: 680px; margin: 30px auto; text-align: center; background: #fff; font-family: Georgia, serif; box-shadow: 0 4px 16px rgba(0,0,0,0.12);'>" +
+"<div style='color: #003087; font-size: 13px; letter-spacing: 4px; text-transform: uppercase; margin-bottom: 6px;'>Howard Energy Partners</div>" +
+"<div style='font-size: 11px; color: #888; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 24px;'>People &amp; Culture</div>" +
+"<div style='font-size: 30px; font-weight: bold; color: #003087; margin-bottom: 28px; border-bottom: 2px solid #c8a951; padding-bottom: 16px;'>Certificate of Completion</div>" +
+"<div style='font-size: 15px; color: #555; margin-bottom: 8px;'>This certifies that</div>" +
+"<div style='font-size: 34px; color: #003087; font-style: italic; border-bottom: 2px solid #003087; padding-bottom: 8px; margin: 8px 40px 20px; min-height: 48px;'>" + n + "</div>" +
+"<div style='font-size: 15px; color: #555; margin-bottom: 6px;'>has successfully completed the</div>" +
+"<div style='font-size: 19px; font-weight: bold; color: #222; margin-bottom: 6px;'>New Employee Onboarding Course</div>" +
+"<div style='font-size: 14px; color: #777; margin-bottom: 36px;'>Howard Energy Partners &mdash; People &amp; Culture</div>" +
+"<div style='display: flex; justify-content: space-around; margin-top: 30px; padding-top: 20px; border-top: 1px solid #ddd;'>" +
+"<div style='text-align: center;'><div style='font-size: 13px; color: #444; margin-bottom: 4px;'>Mike Howard</div><div style='font-size: 11px; color: #888;'>Chairman &amp; CEO</div></div>" +
+"<div style='text-align: center;'><div style='font-size: 13px; color: #444; margin-bottom: 4px;'>" + date + "</div><div style='font-size: 11px; color: #888;'>Date Completed</div></div>" +
+"</div></div>"
 </script>
 
 ## 📚 Sources
-test
+
 1. PrivCo / ZoomInfo / LinkedIn — founding year (2011) and San Antonio headquarters. [privco.com](https://www.privco.com/company/howard-midstream-energy)
 2. Howard Energy Partners — *Mike Howard bio* (founder, Chairman & CEO; multi-billion-dollar enterprise). [howardenergypartners.com](https://www.howardenergypartners.com/howard-bio/)
 3. Howard Energy Partners — *Who We Are* and *Home* pages (purpose, "meaningful endeavor," core values, Top Workplaces). [howardenergypartners.com](https://www.howardenergypartners.com/who-we-are/)
