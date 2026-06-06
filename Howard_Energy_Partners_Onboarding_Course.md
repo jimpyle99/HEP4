@@ -409,20 +409,20 @@ Enter your full name to generate your certificate, then click **Print Certificat
 
 ## 📚 Sources
 
-[^1]: PrivCo / ZoomInfo / LinkedIn company profiles — founding year (2011) and San Antonio headquarters. <https://www.privco.com/company/howard-midstream-energy>
-[^2]: Howard Energy Partners — *Mike Howard bio* (founder, Chairman & CEO; multi-billion-dollar enterprise). <https://www.howardenergypartners.com/howard-bio/>
-[^3]: Howard Energy Partners — *Who We Are* and *Home* pages (purpose, "meaningful endeavor," core values, Top Workplaces). <https://www.howardenergypartners.com/who-we-are/>
-[^4]: Howard Energy Partners — *About* page (AIMCo & Alinda ownership; 150+ years combined experience; wellhead-to-market services). <https://www.howardenergypartners.com/about>
-[^5]: BusinessWire / Yahoo Finance — *Mike Howard Appointed to National Petroleum Council* (Feb 3, 2026). <https://www.businesswire.com/news/home/20260203292099/en>
-[^6]: BusinessWire — National Petroleum Council appointment details. <https://www.businesswire.com/news/home/20260203292099/en>
-[^7]: Howard Energy Partners — *Our Operations* page (regional operations, Nueva Era, Javelina/Infinium, renewable diesel & SAF). <https://www.howardenergypartners.com/our-operations/>
-[^8]: BusinessWire — *Howard Energy Partners to Acquire Refinery Services Facility in Corpus Christi* (Javelina acquisition, 2021). <https://www.businesswire.com/news/home/20201229005030/en>
-[^9]: Hydrogen Insight & Infinium — world's first commercial drop-in eFuels facility (Pathfinder), CO₂ feedstock from HEP. <https://www.infiniumco.com/projects>
-[^10]: Howard Energy Partners — *Acquires Ethylene Pipeline from EPIC Midstream Holdings* (Jan 2025); record $1.1B M&A year; by-the-numbers stats. <https://www.howardenergypartners.com/howard-energy-partners-acquires-ethylene-pipeline-from-epic-midstream-holdings/>
-[^11]: Howard Energy Partners — *Acquires Operating Interest in Midship Pipeline* (Feb 2025). <https://www.howardenergypartners.com/howard-energy-partners-acquires-operating-interest-in-midship-pipeline/>
-[^12]: BusinessWire — *Howard Energy PartnersAnnounces Pricing of $750 Million Senior Notes Offering* (Aug 2025). <https://www.businesswire.com/news/home/20250213998958/en>
-[^13]: BusinessWire / Oil & Gas Journal — *Howard Energy PartnersExpands Midcontinent Platform With Strategic Acquisitions* (June 2026). <https://www.businesswire.com/news/home/20260602356932/en/Howard-Energy-Partners-Expands-Midcontinent-Platform-With-Strategic-Acquisitions>
-[^14]: Howard Energy Partners LinkedIn — Bill Gates / Breakthrough Energy tour of the Javelina-adjacent Infinium eFuels facility; community engagement examples. <https://www.linkedin.com/company/howard-energy-partners>
+1. PrivCo / ZoomInfo / LinkedIn — founding year (2011) and San Antonio headquarters. [privco.com](https://www.privco.com/company/howard-midstream-energy)
+2. Howard Energy Partners — *Mike Howard bio* (founder, Chairman & CEO; multi-billion-dollar enterprise). [howardenergypartners.com](https://www.howardenergypartners.com/howard-bio/)
+3. Howard Energy Partners — *Who We Are* and *Home* pages (purpose, "meaningful endeavor," core values, Top Workplaces). [howardenergypartners.com](https://www.howardenergypartners.com/who-we-are/)
+4. Howard Energy Partners — *About* page (AIMCo & Alinda ownership; 150+ years combined experience; wellhead-to-market services). [howardenergypartners.com](https://www.howardenergypartners.com/about)
+5. BusinessWire / Yahoo Finance — *Mike Howard Appointed to National Petroleum Council* (Feb 3, 2026). [businesswire.com](https://www.businesswire.com/news/home/20260203292099/en)
+6. BusinessWire — National Petroleum Council appointment details. [businesswire.com](https://www.businesswire.com/news/home/20260203292099/en)
+7. Howard Energy Partners — *Our Operations* page (regional operations, Nueva Era, Javelina/Infinium, renewable diesel & SAF). [howardenergypartners.com](https://www.howardenergypartners.com/our-operations/)
+8. BusinessWire — *HEP to Acquire Refinery Services Facility in Corpus Christi* (Javelina acquisition, 2021). [businesswire.com](https://www.businesswire.com/news/home/20201229005030/en)
+9. Hydrogen Insight & Infinium — world's first commercial drop-in eFuels facility (Pathfinder), CO₂ feedstock from HEP. [infiniumco.com](https://www.infiniumco.com/projects)
+10. Howard Energy Partners — *Acquires Ethylene Pipeline from EPIC Midstream Holdings* (Jan 2025); record $1.1B M&A year. [howardenergypartners.com](https://www.howardenergypartners.com/howard-energy-partners-acquires-ethylene-pipeline-from-epic-midstream-holdings/)
+11. Howard Energy Partners — *Acquires Operating Interest in Midship Pipeline* (Feb 2025). [howardenergypartners.com](https://www.howardenergypartners.com/howard-energy-partners-acquires-operating-interest-in-midship-pipeline/)
+12. BusinessWire — *HEP Announces Pricing of $750 Million Senior Notes Offering* (Aug 2025). [businesswire.com](https://www.businesswire.com/news/home/20250213998958/en)
+13. BusinessWire / Oil & Gas Journal — *HEP Expands Midcontinent Platform With Strategic Acquisitions* (June 2026). [businesswire.com](https://www.businesswire.com/news/home/20260602356932/en/Howard-Energy-Partners-Expands-Midcontinent-Platform-With-Strategic-Acquisitions)
+14. Howard Energy Partners LinkedIn — Bill Gates / Breakthrough Energy tour of the Javelina-adjacent Infinium eFuels facility; community engagement examples. [linkedin.com](https://www.linkedin.com/company/howard-energy-partners)
 
 --{{0}}--
 That's the end of the course. Welcome aboard, and thank you for taking the time to learn about Howard Energy Partners.
