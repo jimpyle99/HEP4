@@ -1,7 +1,7 @@
 <!--
 author:   Howard Energy Partners — People & Culture
 email:    jimpyle@gmail.com
-version:  1.8.0
+version:  1.9.0
 language: en
 narrator: US English Male
 
@@ -362,7 +362,7 @@ Congratulations on completing the Howard Energy Partners New Employee Onboarding
 
 Enter your full name and click **Print Certificate**.
 
-```html
+```html  data-autorun="true"
 <body style="margin:0;padding:16px;font-family:Georgia,serif">
 <div style="margin-bottom:16px">
   <label style="font-size:15px;font-weight:bold">Your full name:</label><br><br>
