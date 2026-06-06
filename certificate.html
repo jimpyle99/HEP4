@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  body { margin: 0; padding: 16px; font-family: Georgia, serif; background: #f9f9f9; }
+  input[type=text] { padding: 10px; font-size: 16px; width: 320px; border: 2px solid #003087; border-radius: 4px; margin-top: 8px; }
+  label { font-size: 15px; font-weight: bold; color: #222; }
+  #cert { border: 10px double #003087; padding: 40px; max-width: 660px; margin: 20px auto; text-align: center; background: #fff; box-shadow: 0 4px 16px rgba(0,0,0,0.12); }
+  .org { color: #003087; font-size: 12px; letter-spacing: 4px; text-transform: uppercase; margin-bottom: 6px; }
+  .dept { font-size: 11px; color: #888; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 20px; }
+  .title { font-size: 26px; font-weight: bold; color: #003087; margin-bottom: 20px; border-bottom: 2px solid #c8a951; padding-bottom: 12px; }
+  .certifies { font-size: 14px; color: #555; margin-bottom: 8px; }
+  #certName { font-size: 30px; color: #003087; font-style: italic; border-bottom: 2px solid #003087; padding-bottom: 8px; margin: 8px 40px 18px; min-height: 44px; }
+  .completed { font-size: 14px; color: #555; margin-bottom: 6px; }
+  .course { font-size: 17px; font-weight: bold; color: #222; margin-bottom: 6px; }
+  .org2 { font-size: 13px; color: #777; margin-bottom: 28px; }
+  .sigs { display: flex; justify-content: space-around; margin-top: 20px; padding-top: 14px; border-top: 1px solid #ddd; }
+  .sig-name { font-size: 12px; color: #444; }
+  .sig-title { font-size: 10px; color: #888; }
+  button { background: #003087; color: white; padding: 10px 28px; font-size: 15px; border: none; border-radius: 6px; cursor: pointer; margin-top: 10px; }
+  button:hover { background: #00205c; }
+  @media print {
+    body { background: white; padding: 0; }
+    label, input, button, .no-print { display: none !important; }
+    #cert { box-shadow: none; margin: 0; max-width: 100%; }
+  }
+</style>
+</head>
+<body>
+<div class="no-print">
+  <label>Enter your full name:</label><br>
+  <input type="text" id="nameInput" placeholder="Your full name" oninput="document.getElementById('certName').textContent=this.value||'Your Name'">
+</div>
+
+<div id="cert">
+  <div class="org">Howard Energy Partners</div>
+  <div class="dept">People &amp; Culture</div>
+  <div class="title">Certificate of Completion</div>
+  <div class="certifies">This certifies that</div>
+  <div id="certName">Your Name</div>
+  <div class="completed">has successfully completed the</div>
+  <div class="course">New Employee Onboarding Course</div>
+  <div class="org2">Howard Energy Partners &mdash; People &amp; Culture</div>
+  <div class="sigs">
+    <div>
+      <div class="sig-name">Mike Howard</div>
+      <div class="sig-title">Chairman &amp; CEO</div>
+    </div>
+    <div>
+      <div class="sig-name" id="certDate"></div>
+      <div class="sig-title">Date Completed</div>
+    </div>
+  </div>
+</div>
+
+<button onclick="window.print()">🖨️ Print Certificate</button>
+
+<script>
+  var d = new Date();
+  var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  document.getElementById('certDate').textContent = months[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
+</script>
+</body>
+</html>
