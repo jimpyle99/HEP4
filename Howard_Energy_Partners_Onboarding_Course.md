@@ -360,21 +360,19 @@ Congratulations on completing the Howard Energy Partners New Employee Onboarding
 
 **Congratulations on completing the course!**
 
-Enter your full name to generate your certificate, then click **Print Certificate**.
+Enter your full name below, then use your browser's **Print** function (Ctrl+P / Cmd+P) to print your certificate.
 
-<lia-keep>
-<div style="margin: 20px 0;">
-  <input type="text" id="recipientName" placeholder="Enter your full name here"
-    style="padding: 10px 14px; font-size: 18px; width: 340px; border: 2px solid #003087; border-radius: 6px; outline: none;"
-    oninput="document.getElementById('certName').textContent = this.value || 'Your Name'" />
-</div>
+Your name: [[___]]
+<script>
+var name = "@input" || "Your Name"
+var date = new Date().toLocaleDateString('en-US', {year:'numeric', month:'long', day:'numeric'})
 
-<div id="certificate" style="border: 10px double #003087; padding: 50px 60px; max-width: 680px; margin: 30px auto; text-align: center; background: #fff; font-family: Georgia, serif; box-shadow: 0 4px 16px rgba(0,0,0,0.12);">
+`<div style="border: 10px double #003087; padding: 50px 60px; max-width: 680px; margin: 30px auto; text-align: center; background: #fff; font-family: Georgia, serif; box-shadow: 0 4px 16px rgba(0,0,0,0.12);">
   <div style="color: #003087; font-size: 13px; letter-spacing: 4px; text-transform: uppercase; margin-bottom: 6px;">Howard Energy Partners</div>
   <div style="font-size: 11px; color: #888; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 24px;">People &amp; Culture</div>
   <div style="font-size: 30px; font-weight: bold; color: #003087; margin-bottom: 28px; border-bottom: 2px solid #c8a951; padding-bottom: 16px;">Certificate of Completion</div>
   <div style="font-size: 15px; color: #555; margin-bottom: 8px;">This certifies that</div>
-  <div id="certName" style="font-size: 34px; color: #003087; font-style: italic; border-bottom: 2px solid #003087; padding-bottom: 8px; margin: 8px 40px 20px; min-height: 48px;">Your Name</div>
+  <div style="font-size: 34px; color: #003087; font-style: italic; border-bottom: 2px solid #003087; padding-bottom: 8px; margin: 8px 40px 20px; min-height: 48px;">${name}</div>
   <div style="font-size: 15px; color: #555; margin-bottom: 6px;">has successfully completed the</div>
   <div style="font-size: 19px; font-weight: bold; color: #222; margin-bottom: 6px;">New Employee Onboarding Course</div>
   <div style="font-size: 14px; color: #777; margin-bottom: 36px;">Howard Energy Partners — People &amp; Culture</div>
@@ -384,28 +382,12 @@ Enter your full name to generate your certificate, then click **Print Certificat
       <div style="font-size: 11px; color: #888;">Chairman &amp; CEO</div>
     </div>
     <div style="text-align: center;">
-      <div id="certDate" style="font-size: 13px; color: #444; margin-bottom: 4px;"></div>
+      <div style="font-size: 13px; color: #444; margin-bottom: 4px;">${date}</div>
       <div style="font-size: 11px; color: #888;">Date Completed</div>
     </div>
   </div>
-</div>
-
-<button onclick="window.print()"
-  style="background: #003087; color: white; padding: 12px 32px; font-size: 16px; border: none; border-radius: 6px; cursor: pointer; margin-top: 10px; letter-spacing: 1px;">
-  🖨️ Print Certificate
-</button>
-
-<script>
-  document.getElementById('certDate').textContent = new Date().toLocaleDateString('en-US', {year:'numeric', month:'long', day:'numeric'});
+</div>`
 </script>
-
-<style>
-  @media print {
-    body > *:not(#certificate) { display: none !important; }
-    #certificate { box-shadow: none !important; border: 10px double #003087 !important; }
-  }
-</style>
-</lia-keep>
 
 ## 📚 Sources
 
