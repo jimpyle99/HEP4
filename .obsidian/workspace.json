@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Howard_Energy_Partners_Onboarding_Course.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Howard_Energy_Partners_Onboarding_Course"
+              "title": "README"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Howard_Energy_Partners_Onboarding_Course.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Howard_Energy_Partners_Onboarding_Course"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Howard_Energy_Partners_Onboarding_Course.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Howard_Energy_Partners_Onboarding_Course"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Howard_Energy_Partners_Onboarding_Course.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Howard_Energy_Partners_Onboarding_Course"
+              "title": "Outline of README"
             }
           }
         ]
@@ -184,5 +184,7 @@
     }
   },
   "active": "f767b864ad80d8c0",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Howard_Energy_Partners_Onboarding_Course.md"
+  ]
 }
