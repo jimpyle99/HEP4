@@ -1,9 +1,9 @@
 <!--
 author:   Howard Energy Partners — People & Culture
 email:    jimpyle@gmail.com
-version:  2.2.0
+version:  2.3.0
 language: en
-narrator: US English Male
+narrator: US English Female
 
 comment:  An interactive onboarding course introducing new employees to Howard Energy Partners — our history, our midstream business, key milestones, innovation, and culture. Includes self-check quizzes and a final knowledge check.
 
